@@ -12,7 +12,7 @@ Table symbols can be interpreted as follows:
 ### Combinations
 Combinations of cards are stored and tracked between turns. To demonstrate the value of this feature, consider a game involving the user (player A) and two other players (B and C). If B starts the rumour (WHITE, PISTOL, KITCHEN), and C shows a card to B, but not to A, then A can deduce that C holds at least one card in the rumour. If, later on in the game, it is deduced that B cannot possibly hold WHITE or PISTOL, then from the stored combination, it can be deduced that B must hold KITCHEN.
 
-## File Description
+## File Descriptions
 This repository contains the following files:
 - solver.py: the main program to be run by the user.
 - rumour_cards.py: defines the rumour cards and their categories e.g. MUSTARD, AXE, DINING ROOM.
