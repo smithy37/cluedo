@@ -29,7 +29,7 @@ Enter the number of players, and then players' names in order of play. The user 
 Add cards that have been dealt to the user. Use lowercase and spaces between words e.g. "dining room". The initial table will be printed to the user.
 
 ### 3. Main Game Loop
-On each player's turn, specify whether the turn is skipped or not. If the turn is not skipped, enter the rumour and then the responses of other players. After every turn, the table and stored combinations are updated and printed to the user.
+On each player's turn, specify whether the turn is skipped or not. If the turn is not skipped, enter the rumour and then the responses of other players. Again, use lowercase and spaces between words. After every turn, the table and stored combinations are updated and printed to the user.
 
 ### 4. Solution
 Once all 3 cards in the solution have been deduced, they are printed to the user and the program ends.
